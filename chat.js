@@ -6,7 +6,7 @@ var app = require('http').createServer(handler)
 	, exec = require('child_process').exec
 	, monitor = require('./service-monitor');
 
-app.listen(8003);
+app.listen(8007);
 
 function handler (req, res) {
     fs.readFile(__dirname + '/index.html',
@@ -21,10 +21,10 @@ function handler (req, res) {
     });
 }
 
-var service = {id: 'lisyoen', 
+var service = {id: 'yser', 
 	name: 'Simple Chatting', 
-	desc: 'Developed by lisyoen', 
-	url: 'http://lisyoen.dangsam.com',
+	desc: 'Developed by yser', 
+	url: 'http://lisyoen.dangsam.com/yser',
 	count: 0};
 monitor.report(service);
 
