@@ -24,7 +24,7 @@ function handler (req, res) {
 var service = {id: 'yser', 
 	name: 'Simple Chatting', 
 	desc: 'Developed by yser', 
-	url: 'http://lisyoen.dangsam.com/yser',
+	url: 'http://chat.dangsam.com/yser',
 	count: 0};
 monitor.report(service);
 
